@@ -1,2 +1,12 @@
 steps:
-  - command: "echo 'Initializing the pipeline'"'"
+  - label: "Tests"
+    command: "echo 'test'"
+    retry:
+      automatic: true
+
+  - wait
+
+  - label: "Deploy"
+    command: "echo 'deploy'"
+    retry:
+      manual: false
