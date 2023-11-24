@@ -25,4 +25,4 @@ jobs:
 
       - name: Destroy Preview Environment
         run: |
-          loft delete vcluster loft-preview-${{ github.event.pull_request.number }} --project preview
+          loft delete vcluster loft-preview-${{ github.event.pull_request.number }} --project preview-env
