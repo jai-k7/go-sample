@@ -23,7 +23,7 @@ jobs:
         uses: loft-sh/setup-loft@v2
         with:
           version: v3.0.0
-          url: https://nr44w54.loft.host
+          url: https://8all2ea.loft.host
           
           access-key: ${{ secrets.LOFT_PREVIEW_ACCESS_KEY }}
           
