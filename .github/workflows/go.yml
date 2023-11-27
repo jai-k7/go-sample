@@ -1,11 +1,5 @@
 name: Create Preview Environment
-
-
-# on:
-#   pull_request:
-#     branches:
-#       - main
-
+on: [push]
 
 jobs:
   
