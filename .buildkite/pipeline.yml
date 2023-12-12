@@ -1,0 +1,10 @@
+steps:
+  - label: "Tests"
+    command: "echo 'test'"
+
+  - label: "Build"
+    command: "echo 'Build'"
+
+
+  - label: "Deploy"
+    command: "echo 'deploy'"
